@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.new-section {
+  margin-top: -3.25rem;
+  padding-top: 3.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact-icon {
+  color: #000;
+  margin-Right: 1.5em;
+}
+
+.contact-icon:hover {
+  color: gray
+}
+
+.highlite {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.hero-image {
+  background: url('./assets/hero-desktop.jpg') no-repeat center top;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .hero-image {
+      background: url('./assets/hero-mobile.jpg') no-repeat center top;
+      background-size: cover;
+  }
+}
