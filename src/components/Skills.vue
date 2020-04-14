@@ -69,7 +69,7 @@ export default {
                 title: 'Languages',
                 skills: ['r', 'python']
             },{
-                title: 'libraries',
+                title: 'Libraries',
                 skills: ['numpy', 'pandas', 'scikit-learn', 'tensorflow']
             }],
         }
